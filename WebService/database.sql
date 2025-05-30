@@ -1,0 +1,16 @@
+CREATE DATABASE SCANQR
+'utf8_general_ci';
+
+USE SCANQR;
+
+CREATE TABLE codes
+(
+    id INTEGER NOT NULL
+    AUTO_INCREMENT,
+    data VARCHAR
+    (255) NOT NULL,
+    type VARCHAR
+    (255) NOT NULL,
+    PRIMARY KEY
+    (id)
+);

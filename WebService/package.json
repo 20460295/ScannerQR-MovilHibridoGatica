@@ -1,0 +1,26 @@
+{
+  "name": "webservice",
+  "version": "1.0.0",
+  "description": "web service de scan qr",
+  "keywords": [
+    "api"
+  ],
+  "license": "ISC",
+  "author": "Juan Carlos Gallardo",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start:live": "nodemon app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "knex": "^3.1.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
